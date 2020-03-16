@@ -27,4 +27,8 @@ class IntNumber {
     void divide(final int second) {
         first /= second;
     }
+
+    void modulo(final int second) {
+        first %= second;
+    }
 }
